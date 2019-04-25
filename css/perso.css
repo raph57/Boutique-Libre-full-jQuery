@@ -1,0 +1,177 @@
+.libArticle {
+
+    margin-bottom:15px;
+    text-align:center;
+
+}
+
+.prix,.devise{
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.95);
+    color: #29A617;
+    font-size: 25px;
+
+}
+
+.prix {
+
+    margin-left:15px;
+}
+
+
+.btn {
+
+    padding: 4px 8px ;
+}
+
+.glyphicon-shopping-cart {
+
+    font-size:15px;
+}
+img.panier {
+
+    width:30px;
+    height:30px;
+
+
+}
+
+
+
+
+.bloc1 {
+    float:left;
+    position:relative;
+    width:80px;
+    margin-right : 20px;
+    margin-left:20px;
+}
+
+
+.bloc2 {
+
+    position:relative;
+    margin-left: 90px;
+
+
+}
+
+
+.btn-label {position: relative;border-radius: 3px 0 0 3px;}
+.btn-labeled {padding-top: 0;padding-bottom: 0;}
+
+.btn-labeled:hover {
+
+    cursor:pointer;
+}
+.img_produit {
+
+  /* max-width: 340px ;*/
+   max-height : 321px;
+
+    -moz-box-shadow: 1px 1px 7px 0px #656565;
+    -webkit-box-shadow: 1px 1px 7px 0px #656565;
+    -o-box-shadow: 1px 1px 7px 0px #656565;
+    box-shadow: 1px 1px 7px 0px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=7);
+}
+
+
+
+.panelCouleur {
+    padding-top: 8px;
+    padding-bottom: 25px;
+    background-color: #eee598;
+    border: solid 1px #b1b1b1;
+    border-radius:0.25em;
+    margin: auto;
+    display:none;
+
+
+}
+
+.prix {
+
+    margin-right:10px;
+}
+
+
+
+.panelChoixCouleur {
+
+
+    position: relative;
+    float: right;
+margin-right : 35px;
+    display:none;
+
+
+}
+ ul.cd-container li {
+
+display:none;
+ }
+
+
+
+.btnChoixCouleur {
+color: #d6d6d4;
+    font-weight:800;
+    margin-left: 6px;
+    padding:4px;
+
+
+}
+
+.btnChoixCouleur:focus {
+
+    color: #d6d6d4;
+
+}
+
+.normal {
+
+    background-color : #e32c18;
+
+}
+
+.flash {
+  /*  line-height: 29px;*/
+    -moz-animation: flash 3s linear;
+    -moz-animation-iteration-count: infinite;
+
+    -webkit-animation: flash 2s linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -ms-animation: flash 5s ease-out;
+    -ms-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes flash {
+    0% { background-color: #ffc913;}
+
+
+    50% { background-color: #fb6429; }
+
+    100% { background-color: #f53c34;  }
+}
+
+@-moz-keyframes flash {
+    0% { background-color: #ffc913; border-radius:5px }
+    25% { background-color : #d97b1a; border-radius : 8px; }
+
+    50% { background-color: #fb6429; border-radius:10px }
+    75% { background-color : #e32c18; border-radius : 12px; }
+    100% { background-color: #f53c34; border-radius:15px }
+}
+
+@-ms-keyframes flash {
+    0% { background-color: #ffc913; border-radius:5px }
+    25% { background-color : #d97b1a; border-radius : 8px; }
+
+    50% { background-color: #fb6429; border-radius:10px }
+    75% { background-color : #e32c18; border-radius : 12px; }
+    100% { background-color: #f53c34; border-radius:15px }
+}
+
+
+

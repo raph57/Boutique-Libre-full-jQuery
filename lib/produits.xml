@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+<produit>
+    <lib>SuperMario</lib>
+    <prix>30</prix>
+    <couleur>rouge</couleur>
+</produit>
+<produit>
+    <lib>Kup</lib>
+    <prix>50</prix>
+    <couleur>rouge</couleur>
+</produit>
+
+    <produit>
+        <lib>Quentin</lib>
+        <prix>500</prix>
+        <couleur>rouge</couleur>
+    </produit>
+</root>
